@@ -4,9 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux'
-import rootReducer from './Reducers/rootReducer.js';
+import rootReducer from './reducers/rootReducer.js';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
+import 'semantic-ui-css/semantic.min.css'
 
 const initStore = createStore(rootReducer)
 
