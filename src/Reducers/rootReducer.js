@@ -1,10 +1,7 @@
-const defaultState = {} 
 
+import { combineReducers } from 'redux'
+import employee from './employeeReducer'
 
-const reducer = (state = defaultState, action) => {
-
-
-}
-
-
-export default reducer; 
+export default combineReducers({
+ 	employee,
+}) 
