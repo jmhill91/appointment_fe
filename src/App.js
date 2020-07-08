@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Switch, Route} from 'react-router-dom';
 import LandingPage from './components/LandingPage';
-import SignInSignUp form './components/SignInSignUp'
+import SignInSignUp from './components/SignInSignUp'
 
 function App() {
   return (
